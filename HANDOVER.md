@@ -3,35 +3,27 @@
 This site was built so that handing it off takes minutes, not a migration. Do this
 before your term ends:
 
-## 1. Confirm the site lives in the GitHub Organization, not a personal account
-
-Go to the repo on github.com and check the URL: it should be
-`github.com/<org-name>/<repo-name>`, not `github.com/<a-persons-username>/<repo-name>`.
-If it's still under someone's personal account, move it now:
-**Settings → General → Danger Zone → Transfer ownership** into the org.
-
-## 2. Add the incoming team as Organization Owners
+## 1. Add the incoming team as Organization Owners
 
 **Organization page → People → Invite member**, add the incoming Curator, Vice
 Curator, and Communications Officer, and set their role to **Owner** (not just
 "Member") so they can manage billing/settings, add future members, and never get
 locked out.
 
-## 3. Remove outgoing members (optional, once incoming team confirms access)
+## 2. Remove outgoing members (optional, once incoming team confirms access)
 
 Same **People** tab — you can leave past curators as members if you want them to
 stay involved, or remove them if not.
 
-## 4. Update the site content for the new term
+## 3. Update the site content for the new term
 
 - `about.html` — new team names/roles under "This year's curatorship"
 - `index.html` — update the hero stat block and "What we're working on" with the
   new term's numbers and active projects
 - `projects.html` — move last term's active projects to "temporarily on hold" (or
   archive them in a blog post) and add the new term's projects
-- `data/posts.json` — add a "New curatorship kicked off" post
 
-## 5. Pass along anything outside this repo
+## 4. Pass along anything outside this repo
 
 - Domain name (if you bought one — see below)
 - Google/Tally form ownership for `events.html`'s embedded signup
